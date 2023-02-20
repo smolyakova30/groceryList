@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body{
+  background-color: #d2bdb0 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: white;
+  min-height: 80hv;
+  width: 350px;
+  margin: 30px auto;
+  padding: 20px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-family: 'Mynerve', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.crossed {
+  text-decoration: line-through 1px red;
+  background-color: #d6ded5;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Mynerve', cursive;
+}
+
+.icon {
+  padding: 0px 3px;
+}
+
+.container{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.add {
+  margin-left: 10px;
+ background-color: #60c140;
+ font-family: 'Mynerve', cursive;
+ padding: 8px;
+ color: white;
+ font-size: 16px;
+ width: 15%;
+}
+
+.delete {
+  background-color: #f84541;
+  font-family: 'Mynerve', cursive;
   color: white;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  font-family: 'Mynerve', cursive;
+  padding: 8px;
 }
